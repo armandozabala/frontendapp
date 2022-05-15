@@ -30,4 +30,6 @@ Se aplico la metadata en las pagina principales, de home, busqueda y detalles de
 
 ### Estructura
 
-Se construyo  los componentes de la app bajo el modelo de Atomic Design 
+Se construyo  los componentes de la app bajo el modelo de Atomic Design
+
+[![estructura.png](https://i.postimg.cc/7hGbN3DW/estructura.png)](https://postimg.cc/hQnSD7XL)
