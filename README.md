@@ -3,11 +3,14 @@
 
 Tecnologías
 
-React
-Webpack
-Sass
-Html
-Ts
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
+
+
+1. React
+2. Webpack
+3. Sass
+4. Html
+5. Ts
 
 Se realizo la configuracion base de la aplicacion React con TS en webpack, se usaron los manejadores correspondientes para archivos, ts, tsx, css, scss, html
 
