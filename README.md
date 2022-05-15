@@ -16,6 +16,7 @@ Se realizo la configuracion base de la aplicacion React con TS en webpack, se us
 
 La app frontend corre en el puerto 3000 esto se puede configurar o cambiar en el archivo de webpack.config.js, en la seccion de devServer
 
+Para correr la aplicacion dejo los siguientes scripts:
 ````
   "scripts": {
     "test": "jest --coverage=true",
