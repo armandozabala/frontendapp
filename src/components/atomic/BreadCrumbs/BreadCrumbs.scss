@@ -1,0 +1,42 @@
+@import "../../../styles/main.scss";
+
+.meli-breadcrumbs-nav {
+  list-style: none;
+  padding-left: 0;
+
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  font-size: $breadcrumbs-font-size;
+  line-height: 1;
+  color: $medium-gray;
+  margin: $breadcrumbs-margin 0;
+
+  a {
+    color: inherit;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  & > li {
+    flex: none;
+
+    & + li {
+      &:before {
+        content: "\203A";
+        display: inline-block;
+        margin: 0 $breadcrumbs-separator-margin;
+      }
+    }
+
+    &.meli-active {
+      a {
+        font-weight: 700;
+      }
+    }
+  }
+}

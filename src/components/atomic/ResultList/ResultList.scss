@@ -1,0 +1,21 @@
+@import "../../../styles/main.scss";
+
+.meli-results-list {
+  border-radius: $results-list-radius;
+  padding: $results-list-padding;
+  background-color: $results-list-background-color;
+  margin: $results-list-padding 0;
+
+  & > .meli-grid {
+    & > div {
+      & + div {
+        margin-top: $results-list-padding;
+
+        & > * {
+          border-top: $results-list-border;
+          padding-top: $results-list-padding;
+        }
+      }
+    }
+  }
+}

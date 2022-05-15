@@ -1,0 +1,62 @@
+@import "../../../styles/main.scss";
+
+.meli-container {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding-left: $base-container-padding;
+  padding-right: $base-container-padding;
+}
+
+.meli-search-navbar {
+  background-color: $yellow-meli;
+  padding: 10px 0;
+}
+
+.meli-search-navbar {
+  background-color: $yellow-meli;
+  padding: $search-navbar-padding 0;
+}
+
+.meli-search-navbar-form {
+  display: flex;
+}
+
+.meli-search-input {
+  border-top-left-radius: $search-input-radius;
+  border-bottom-left-radius: $search-input-radius;
+  font-size: $search-input-font-size;
+  border: none;
+  width: 100%;
+  padding: calc($search-input-padding / 2) $search-input-padding;
+  color: $medium-gray;
+  flex: 1;
+  box-sizing: border-box;
+
+  &::placeholder {
+    color: $medium-gray;
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.meli-search-button {
+  padding: 0;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-top-right-radius: $search-input-radius;
+  border-bottom-right-radius: $search-input-radius;
+  border: none;
+  background: url(../../../assets/images/ic_Search.png) $light-gray center
+    center no-repeat;
+  width: $search-button-size;
+  height: $search-button-size;
+
+  &:hover {
+    background-color: $search-button-background-hover;
+  }
+}

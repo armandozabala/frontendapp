@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResultList ResultList 1`] = `ReactWrapper {}`;
+
+exports[`ResultList ResultList empty 1`] = `ReactWrapper {}`;
