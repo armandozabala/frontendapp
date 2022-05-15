@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest --coverage=true",
     "test:watch": "jest --watch",
-    "start": "webpack serve --open"
+    "start:webpack": "webpack serve --open",
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "Armando Zabala",
