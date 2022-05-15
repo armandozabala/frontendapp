@@ -16,6 +16,15 @@ Se realizo la configuracion base de la aplicacion React con TS en webpack, se us
 
 La app frontend corre en el puerto 3000 esto se puede configurar o cambiar en el archivo de webpack.config.js, en la seccion de devServer
 
+````
+  "scripts": {
+    "test": "jest --coverage=true",
+    "test:watch": "jest --watch",
+    "start:webpack": "webpack serve --open",
+    "start": "nodemon index.js"
+  },
+````
+
 ### Unit Test
 
 Para los Unit Test se uso Jest Enzyme, configurado en el package.jsony las respectivas configuraciones sobre React.
@@ -33,3 +42,6 @@ Se aplico la metadata en las pagina principales, de home, busqueda y detalles de
 Se construyo  los componentes de la app bajo el modelo de Atomic Design
 
 [![estructura.png](https://i.postimg.cc/7hGbN3DW/estructura.png)](https://postimg.cc/hQnSD7XL)
+
+
+
