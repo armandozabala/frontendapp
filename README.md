@@ -12,7 +12,7 @@
 4. Html
 5. Ts
 
-Se realizo la configuracion base de la aplicacion React con TS en webpack, se usaron los manejadores correspondientes para archivos, ts, tsx, css, scss, html
+Se realizo la configuracion base de la aplicacion React con TS en webpack, se usaron los loaders correspondientes para archivos, ts, tsx, css, scss, html
 
 La app frontend corre en el puerto 3000 esto se puede configurar o cambiar en el archivo de webpack.config.js, en la seccion de devServer
 
