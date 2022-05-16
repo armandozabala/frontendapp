@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage=true",
-    "deploy": "gh-pages -d dist",
     "test:watch": "jest --watch",
     "start:webpack": "webpack serve --open",
     "start": "nodemon ./src/index.tsx",
