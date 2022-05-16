@@ -18,11 +18,12 @@ La app frontend corre en el puerto 3000 esto se puede configurar o cambiar en el
 
 Para correr la aplicacion dejo los siguientes scripts:
 ````
-  "scripts": {
+"scripts": {
     "test": "jest --coverage=true",
     "test:watch": "jest --watch",
     "start:webpack": "webpack serve --open",
-    "start": "nodemon index.js"
+    "start": "nodemon ./src/index.tsx",
+    "build": "webpack --mode production"
   },
 ````
 
