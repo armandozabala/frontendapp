@@ -19,6 +19,7 @@ const App = () => {
               <Route index={true} element={<ProductsResult />} />
               <Route index={false} path=":id" element={<ProductDetail />} />
             </Route>
+            <Route path="/*" element={<p>Not found 404</p>} />
           </Routes>
         </Router>
       </SearchContext.Provider>
