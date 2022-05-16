@@ -45,4 +45,10 @@ Se construyo  los componentes de la app bajo el modelo de Atomic Design
 [![estructura.png](https://i.postimg.cc/7hGbN3DW/estructura.png)](https://postimg.cc/hQnSD7XL)
 
 
+## Demo URL
 
+https://starlit-manatee-4615f5.netlify.app/
+
+https://starlit-manatee-4615f5.netlify.app/items?search=nintendo
+
+https://starlit-manatee-4615f5.netlify.app/items/MLA929597718
