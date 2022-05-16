@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "target": "es6",
     "esModuleInterop": true,
     "sourceMap": true,
     "moduleResolution": "node",
