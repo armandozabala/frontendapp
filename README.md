@@ -12,7 +12,7 @@
 4. Html
 5. Ts
 
-Se realizo la configuracion base de la aplicacion React con TS en webpack, se usaron los manejadores correspondientes para archivos, ts, tsx, css, scss, html
+Se realizo la configuracion base de la aplicacion React con TS en webpack, se usaron los loaders correspondientes para archivos, ts, tsx, css, scss, html
 
 La app frontend corre en el puerto 3000 esto se puede configurar o cambiar en el archivo de webpack.config.js, en la seccion de devServer
 
@@ -46,7 +46,7 @@ Se construyo  los componentes de la app bajo el modelo de Atomic Design
 [![estructura.png](https://i.postimg.cc/7hGbN3DW/estructura.png)](https://postimg.cc/hQnSD7XL)
 
 
-## Demo URL
+## Netlify Deploy -  Demo URLs
 
 https://starlit-manatee-4615f5.netlify.app/
 
