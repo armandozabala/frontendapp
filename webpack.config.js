@@ -10,7 +10,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
-    publicPath: "/",
+    //publicPath: "/",
   },
 
   module: {
@@ -62,9 +62,11 @@ module.exports = {
     },
   },
   devServer: {
+    hot: true,
     static: {
       directory: path.join(__dirname, "public"),
     },
+
     historyApiFallback: true,
     compress: true,
     port: 3000,
