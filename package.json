@@ -10,7 +10,11 @@
     "start": "nodemon ./src/index.tsx",
     "build": "webpack --mode production"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "meli",
+    "frontend"
+  ],
   "author": "Armando Zabala",
   "license": "ISC",
   "dependencies": {
