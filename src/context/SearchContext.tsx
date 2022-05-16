@@ -5,4 +5,7 @@ export type SearchContextType = {
   setSearch: Function;
 };
 
-export const SearchContext = createContext<SearchContextType>();
+export const SearchContext = createContext<SearchContextType>({
+  search: "",
+  setSearch: () => {},
+});
