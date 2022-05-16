@@ -52,3 +52,7 @@ https://starlit-manatee-4615f5.netlify.app/
 https://starlit-manatee-4615f5.netlify.app/items?search=nintendo
 
 https://starlit-manatee-4615f5.netlify.app/items/MLA929597718
+
+## Evaluacion segun Ligthhouse 
+
+[![Screenshot-1.png](https://i.postimg.cc/wjNyZy3m/Screenshot-1.png)](https://postimg.cc/DS2wbzrv)
