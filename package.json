@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "commonjs",
   "scripts": {
     "test": "jest --coverage=true",
     "test:watch": "jest --watch",
     "start:webpack": "webpack serve --open",
-    "start": "nodemon ./src/index.js",
-    "postinstall": "tsc"
+    "start": "nodemon ./src/index.tsx",
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "Armando Zabala",
