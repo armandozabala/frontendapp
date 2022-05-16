@@ -5,14 +5,19 @@ import logo from "@assets/images/Logo_ML.png";
 import { useNavigate } from "react-router-dom";
 import { SearchContext } from "../../../context/searchContext";
 
-const NavBar = () => {
+const NavBar = ({ query }) => {
+  console.log("object", query);
   const navigate = useNavigate();
-  const [inputValue, setInputValue] = useState("");
+  const [inputValue, setInputValue] = useState(query);
   const { search, setSearch } = useContext(SearchContext);
 
   useEffect(() => {
     setInputValue(search);
   }, [search]);
+
+  useEffect(() => {
+    setInputValue(query);
+  }, [query]);
 
   const handleInputChange = (event: any) => {
     setInputValue(event.target.value);

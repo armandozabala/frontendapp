@@ -41,7 +41,7 @@ const ProductsResult = () => {
         />
       </Helmet>
       <main className="meli-page-results">
-        <NavBar />
+        <NavBar query={searchQuery} />
         <div className={loading_class}>
           {data && (
             <>
